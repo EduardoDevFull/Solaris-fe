@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+#progressbar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 7px;
+	border-radius: 10px;
+	background: gray;
+	z-index: 20000000;
+}
+
+body {
+	background: #131419;
+
+}
+
+.wrapper {
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	background: #363636;
+	padding: 40px 40px 120px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 
+				5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .title {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color:	#FFA500; 
+	font-family: 'Bebas Neue', cursive;
+}
+
+.wrapper .social_media{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .social_media .item {
+	width: 35px;
+	height: 35px;
+	border: 2px solid #EEEEEE;
+	margin: 0 5px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #EEEEEE;
+	transition: all 0.5s ease; 
+}
+
+.wrapper .social_media .item:hover {
+	border-color: #FFA500;
+	color: #FFA500;
+}
+
+.wrapper .form .input_field {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.wrapper .form .input_field .input {
+	width: 100%;
+	padding: 12px;
+	padding-left: 30px;
+	background: #D3D3D3;
+	border-radius: 5px;
+}
+
+.wrapper .form .btn {
+	width: 70%;
+	margin: 20px auto 0;
+	background: #FFA500;
+	padding: 12px;
+	text-align: center;
+	border-radius: 25px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+}
+
+.wrapper .form .btn:active {
+	background: #FF4500; 
+}
+
+.wrapper .form .btn a {
+	color: 	#FFF;
+	text-decoration: none;
+}
+
+.wrapper .form .input_field i {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #1D2120;
+	font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+	color: #1D2120;
+}
+
+.forget {
+	margin-top: 30px;
+	color: #FFF; 
+	font-family: 'Hind', sans-serif;
+}
+
+.forget a {
+	color: #FF4500;
+}

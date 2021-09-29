@@ -1,0 +1,133 @@
+.img-principal {
+		width: 200px; 
+		height: 200px;
+		left: 517px;
+		position: absolute;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    -moz-user-select: none;
+	    user-drag: none; 
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-drag: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		pointer-events: none;
+		z-index: 4;
+	}
+
+	.button-voltar {
+		background: white;
+		top: 13px;
+		right: 195px;
+		position: absolute;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+
+	.img-SOlaris { 
+		width: 1250px; 
+		padding: 10px;
+		background:	black;
+		display: flex;
+		height: 260px;
+	}
+
+	.anuncio {
+		width: 1280px;
+		height: 700px;
+		-moz-user-select: none;
+		user-drag: none; 
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-drag: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		pointer-events: none;	
+	}
+
+	.verosinha-img {
+		width: 1280px;
+		height: 700px;
+		top: 5px;
+		position: relative;
+		z-index: 0;
+	}
+
+	.gif-nego {
+		width: 290px;
+		height: 250px;
+		position: relative;
+		left: 899px;
+		top: 0px;
+		border-radius: 10px;	
+	}
+
+	.compreaqui {
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: 700;
+		border: none;
+		padding: 15px 50px;
+		cursor: pointer;
+		display: inline-block;
+		text-decoration: none;
+		position: absolute;
+		top: 920px;
+		margin: 0 15px;
+		background: #FFA500;
+		color: #363636;
+		box-shadow: 0.2em 4px #FF4500;
+		right: 535px;
+	}
+
+	.compreaqui-verosinha {
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: 700;
+		border: none;
+		padding: 15px 50px;
+		cursor: pointer;
+		display: inline-block;
+		text-decoration: none;
+		position: absolute;
+		top: 2350px;
+		margin: 0 15px;
+		background: #FFA500;
+		color: #363636;
+		box-shadow: 0.2em 4px #FF4500;
+		right: 537px;
+		z-index: 1;	
+	}
+
+	.rede {
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin-left: 54px;
+		transition: all 0.4s ease-out;
+		border-radius: 50%;
+	}
+
+	.solaris-trans {
+		z-index: 1;
+		position: absolute;
+		left: 28.5%;
+		top: 2425px;
+		-moz-user-select: none;
+		user-drag: none; 
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-drag: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		pointer-events: none;
+	}
+
+	.rodape-pg {
+		width: 1275px;
+		height: 700px;
+	}
